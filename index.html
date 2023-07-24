@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="Stylesheet" href="Style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg-container">
+        <header>
+            <div class="nav">
+
+                <a href="#" class="logo">
+                  <ion-icon name="fast-food-sharp"></ion-icon>
+                    Food Delights
+                </a>
+
+                <div class="box">
+                    <div class="cart-count">0</div>
+                    <ion-icon name="cart" class="cart-icon"></ion-icon>
+                </div>
+
+                <div class="cart">
+                  <div class="cart-title">Cart Items</div>
+                  <div class="cart-content">
+<!--
+                    <div class="cart-box">
+                      <img src="https://www.licious.in/blog/wp-content/uploads/2022/04/shutterstock_1498639676-min.jpg"
+                        class="cart-image">
+                      <div class="detail-box">
+                        <div class="cart-food-title">Chilli Chicken Gravy</div>
+                        <div class="price-box">
+                          <div class="cart-price">Rs.140</div>
+                          <div class="cart-amount">Rs.140</div>
+                        </div>
+                        <input type="number" value="1" class="cart-quantity">
+                      </div>
+                      <ion-icon name="trash-outline" class="cart-remove"></ion-icon>
+                    </div>
+
+                    <div class="cart-box">
+                      <img src="https://www.licious.in/blog/wp-content/uploads/2022/04/shutterstock_1498639676-min.jpg"
+                        class="cart-image">
+                      <div class="detail-box">
+                        <div class="cart-food-title">Chilli Chicken Gravy</div>
+                        <div class="price-box">
+                          <div class="cart-price">Rs.140</div>
+                          <div class="cart-amount">Rs.140</div>
+                        </div>
+                        <input type="number" value="1" class="cart-quantity">
+                      </div>
+                      <ion-icon name="trash-outline" class="cart-remove"></ion-icon>
+                    </div>
+                  -->
+                  </div>
+
+                <div class="total">
+                  <div class="total-title">Total</div>
+                  <div class="total-price">Rs.0</div>
+                </div>
+
+                <button class="btn-buy">Place Order</button>
+                <ion-icon name="close-outline" id="cart-close"></ion-icon>
+              </div>
+
+            </div>
+        </header>
+        <div class="container">
+            <h2 class="title">Discover the best food</h2>
+            <div class="shop-content">
+
+                <div class="food-box">
+                    <div class="pic">
+                      <img src="https://www.licious.in/blog/wp-content/uploads/2022/06/mutton-hyderabadi-biryani-01.jpg" class="food-img">
+                    </div>
+                    <h2 class="food-title">Mutton Biryani</h2>
+                    <span class="food-price">Rs.300</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+                <div class="food-box">
+                    <div class="pic">
+                      <img src="https://www.licious.in/blog/wp-content/uploads/2022/06/chicken-hyderabadi-biryani-01.jpg" class="food-img">
+                    </div>
+                    <h2 class="food-title">Chicken Biryani</h2>
+                    <span class="food-price">Rs.260</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+                <div class="food-box">
+                    <div class="pic">
+                      <img src="https://media.istockphoto.com/id/1410130688/photo/mutton-biryani-served-in-a-golden-dish-isolated-on-dark-background-side-view-indian-food.jpg?s=612x612&w=0&k=20&c=ueFrghYZuKAty-rFVe5dtMtNIbn0jaUsSvCUwTVOmd8=" class="food-img">
+                    </div>
+                    <h2 class="food-title">Beef Biryani</h2>
+                    <span class="food-price">Rs.240</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+
+                <div class="food-box">
+                    <div class="pic">
+                      <img src="https://images.news18.com/ibnlive/uploads/2022/06/malabar-paratha.jpg" class="food-img">
+                    </div>
+                    <h2 class="food-title">Parotta(3 pcs)</h2>
+                    <span class="food-price">Rs.45</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+                <div class="food-box">
+                    <div class="pic">
+                      <img src="https://swatisani.net/kitchen/wp-content/uploads/2015/03/IMG_8340.jpg" class="food-img">
+                    </div>
+                    <h2 class="food-title">Mutton Gravy</h2>
+                    <span class="food-price">Rs.150</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+                <div class="food-box">
+                    <div class="pic">
+                      <img src="https://5.imimg.com/data5/SELLER/Default/2021/5/FE/YN/AP/95161976/butter-chicken-gravy-500x500.jpg" class="food-img">
+                    </div>
+                    <h2 class="food-title">Butter Chicken Gravy</h2>
+                    <span class="food-price">Rs.140</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+                <div class="food-box">
+                    <div class="pic">
+                      <img src="https://www.licious.in/blog/wp-content/uploads/2022/04/shutterstock_1498639676-min.jpg" class="food-img">
+                    </div>
+                    <h2 class="food-title">Chilli Chicken Gravy</h2>
+                    <span class="food-price">Rs.140</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+                <div class="food-box">
+                    <div class="pic">
+                      <img src="https://www.licious.in/blog/wp-content/uploads/2020/12/Pepper-Chicken-750x750.jpg" class="food-img">
+                    </div>
+                    <h2 class="food-title">Pepper Chicken</h2>
+                    <span class="food-price">Rs.140</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+                <div class="food-box">
+                    <div class="pic">
+                      <img src="https://i0.wp.com/savorytales.com/wp-content/uploads/2018/03/IMG_0513.jpg?fit=3677%2C3354&ssl=1" class="food-img">
+                    </div>
+                    <h2 class="food-title">Chettinad Chicken Gravy</h2>
+                    <span class="food-price">Rs.150</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+                <div class="food-box">
+                    <div class="pic">
+                      <img src="https://static.toiimg.com/thumb/61203720.cms?width=1200&height=900" class="food-img">
+                    </div>
+                    <h2 class="food-title">Chappathi (3pcs)</h2>
+                    <span class="food-price">Rs.30</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+                <div class="food-box">
+                    <div class="pic">
+                      <img src="https://www.idfreshfood.com/wp-content/uploads/2020/10/aap4.jpg" class="food-img">
+                    </div>
+                    <h2 class="food-title">Veechu Parotta(2pcs)</h2>
+                    <span class="food-price">Rs.40</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+                <div class="food-box">
+                    <div class="pic">
+                      <img src="https://www.secondrecipe.com/wp-content/uploads/2019/12/dosa-635x900.jpg" class="food-img">
+                    </div>
+                    <h2 class="food-title">Ghee Roast</h2>
+                    <span class="food-price">Rs.60</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+                <div class="food-box">
+                    <div class="pic">
+                      <img src="https://shriandsam.com/cdn/shop/articles/thumb__700_0_0_0_auto.jpg?v=1647948591" class="food-img">
+                    </div>
+                    <h2 class="food-title">Egg Roast</h2>
+                    <span class="food-price">Rs.60</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+                <div class="food-box">
+                    <div class="pic">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Cd5dCcRTd87oKvyD2TUEvry28_yAgcsrn3I4k8ZoGcvNedcDY4-AlwaXbKu-dcwcdPs&usqp=CAU" class="food-img">
+                    </div>
+                    <h2 class="food-title">Rava Dosa</h2>
+                    <span class="food-price">Rs.60</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+                <div class="food-box">
+                    <div class="pic">
+                      <img src="https://www.licious.in/blog/wp-content/uploads/2020/12/Chicken-Fried-Rice-min-600x600.jpg" class="food-img">
+                    </div>
+                    <h2 class="food-title">Chicken Fried Rice</h2>
+                    <span class="food-price">Rs.120</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+                <div class="food-box">
+                    <div class="pic">
+                      <img src="https://www.seriouseats.com/thmb/BJjCEDw9OZe95hpZxmNcD3rJnHo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20230529-SEA-EggFriedRice-AmandaSuarez-hero-c8d95fbf69314b318bc279159f582882.jpg" class="food-img">
+                    </div>
+                    <h2 class="food-title">Egg Fried Rice</h2>
+                    <span class="food-price">Rs.100</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+                <div class="food-box">
+                    <div class="pic">
+                      <img src="https://lh3.googleusercontent.com/9IhQQ7iNFmkW0ihCRt0T4Cw5HQhRXpb_NFqUrRTevqweuQshgFCGV9nVja-hhyzlVXtHPYSdCyX43DFCKInaKg=w1280-h1280-c-rj-v1-e365" class="food-img">
+                    </div>
+                    <h2 class="food-title">Chicken Noodles</h2>
+                    <span class="food-price">Rs.120</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+            </div>
+        </div>
+        <footer>
+          <div class="footer-bg-container">
+            <div class="icons-edit">
+              <ion-icon name="logo-facebook" class="icons"></ion-icon>
+              <ion-icon name="logo-whatsapp" class="icons"></ion-icon>
+              <ion-icon name="logo-google" class="icons"></ion-icon>
+              <ion-icon name="logo-instagram" class="icons"></ion-icon>
+              <ion-icon name="logo-twitter" class="icons"></ion-icon>
+            </div>
+
+            <div class="content-edit">
+              <p class="content">HOME</p>
+              <p class="content">MENU</p>
+              <p class="content">STORY</p>
+              <p class="content">DETOX</p>
+              <p class="content">LOCATIONS</p>
+            </div>
+
+            <div class="content-edit-1">
+              <p class="content-1">CONTACT</p>
+              <p class="content-1">BLOG</p>
+              <p class="content-1">CATERING</p>
+              <p class="content-1">DELIVERY</p>
+            </div>
+
+            <div class="Copyrights-edits">
+              <p>Copyrights  &#169;  2017 <b>FOOD DELIGHT</b>  |  All Rights Reserved.</p>
+            </div>
+          </div>
+        </footer>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>
